@@ -3,6 +3,7 @@ package com.ui.tests;
 import static com.constants.Browser.CHROME;
 import static org.testng.Assert.assertEquals;
 
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -19,7 +20,21 @@ public class LoginTest {
 
 	@Test(description = "Verify login for valid user", priority = 1, groups = { "e2e",
 			"Sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginDataProvider")
-	public void loginTest(User user) {
+	public void loginJSONTest(User user) {
+		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
+				"Akshay J");
+	}
+
+	@Test(description = "Verify login for valid user", priority = 1, groups = { "e2e",
+			"Sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginCSVDataProvider", retryAnalyzer = com.ui.listeners.MyRetryAnalyser.class)
+	public void loginCSVTest(User user) {
+		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
+				"Akshay J");
+	}
+
+	@Test(description = "Verify login for valid user", priority = 1, groups = { "e2e",
+			"Sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginExcelDataProvider", retryAnalyzer = com.ui.listeners.MyRetryAnalyser.class)
+	public void loginExcelTest(User user) {
 		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
 				"Akshay J");
 	}
