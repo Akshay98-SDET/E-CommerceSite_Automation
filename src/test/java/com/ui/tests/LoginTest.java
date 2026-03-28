@@ -1,23 +1,27 @@
 package com.ui.tests;
 
-import org.testng.Assert;
+import static com.constants.Browser.CHROME;
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.ui.pages.HomePage;
+import com.ui.pojos.User;
 
 public class LoginTest {
 	HomePage homepage;
-	
-	@BeforeMethod(description = "Home Page launch")
+
+	@BeforeMethod(description = "Load Home Page")
 	public void setup() {
-		homepage = new HomePage("chrome");
+		homepage = new HomePage(CHROME);
 	}
-	
-	@Test (description = "Veify login for valid user", priority = 1, groups = {"e2e", "Sanity"})
-	public void loginTest() {
-		String userName = homepage.goToLoginPage().doLoginWith("jexakag141@pazuric.com", "Akshay@1998").getUserName(null);
-		Assert.assertEquals(userName, "Akshay J");
+
+	@Test(description = "Verify login for valid user", priority = 1, groups = { "e2e",
+			"Sanity" }, dataProviderClass = com.ui.dataproviders.LoginDataProvider.class, dataProvider = "LoginDataProvider")
+	public void loginTest(User user) {
+		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
+				"Akshay J");
 	}
 
 }

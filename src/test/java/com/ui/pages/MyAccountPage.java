@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.utility.BrowserUtility;
 
-public class MyAccountPage extends BrowserUtility{
+public final class MyAccountPage extends BrowserUtility{
 	
 	private static final By USER_NAME_LOCATOR = By.xpath("//*[@title=\"View my customer account\"]/span");
 
@@ -15,7 +15,7 @@ public class MyAccountPage extends BrowserUtility{
 	}
 	
 	
-	public String getUserName(By locator) {
+	public String getUserName() {
 		return getVisibleText(USER_NAME_LOCATOR);
 	}
 }

@@ -1,18 +1,20 @@
 package com.ui.pages;
 
+import static com.constants.Env.QA;
+
 import org.openqa.selenium.By;
 
-import static com.constants.Env.*;
+import com.constants.Browser;
 import com.utility.BrowserUtility;
 import com.utility.JSONUtility;
-import com.utility.PropertiesUtil;
 
 public final class HomePage extends BrowserUtility {
 	private static final By SIGN_IN_LOCATOR = By.xpath("//*[@class=\"login\"]");
 
-	public HomePage(String browserName) {
+	public HomePage(Browser browserName) {
 		super(browserName);
 		goToWebsite(JSONUtility.readJSON(QA));
+		// goToWebsite(PropertiesUtil.getProperty(Env.DEV, "URL"));
 	}
 
 	public LoginPage goToLoginPage() {

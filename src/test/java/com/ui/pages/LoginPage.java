@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 import com.utility.BrowserUtility;
 
-public class LoginPage extends BrowserUtility {
+public final class LoginPage extends BrowserUtility {
 	public LoginPage(WebDriver driver) {
 		super(driver);
 	}
