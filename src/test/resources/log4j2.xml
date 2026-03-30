@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
 
-<configuration>
-	<Appenders>
-		<Console name="Console" target="SYSTEM_OUT">
-			<PatternLayout
-				pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %level %logger::%M::%l %msg %n"></PatternLayout>
-		</Console>
+    <Appenders>
+        <!-- Console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n"/>
+        </Console>
 
-		<File name="FileLogger" fileName="/logs/automation.log"
-			append="false">
+        <!-- File -->
+        <File name="FileLogger" fileName="logs/test.log" append="true">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n"/>
+        </File>
+    </Appenders>
 
-			<PatternLayout
-				pattern="%d{YYYY-MM-dd HH:mm:ss} [%t] %level %logger %msg %n"></PatternLayout>
-		</File>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="FileLogger"/>
+        </Root>
+    </Loggers>
 
-	</Appenders>
-
-
-	<Loggers>
-		<Root level="info">
-			<AppenderRef ref="Console"></AppenderRef>
-			<AppenderRef ref="FileLogger"></AppenderRef>
-
-		</Root>
-
-	</Loggers>
-
-</configuration>
+</Configuration>

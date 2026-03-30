@@ -1,5 +1,6 @@
 package com.utility;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +11,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import com.constants.Browser;
 
 public abstract class BrowserUtility {
+	Logger logger = LoggerUtility.getLogger(this.getClass());
 
 	private WebDriver driver;
 
@@ -19,6 +21,7 @@ public abstract class BrowserUtility {
 	}
 
 	public BrowserUtility(Browser BrowserName) {
+		logger.info("Launching browser"+BrowserName);
 		if (BrowserName == Browser.CHROME) {
 			driver = new ChromeDriver();
 		} else if (BrowserName == Browser.EDGE) {
@@ -33,15 +36,20 @@ public abstract class BrowserUtility {
 	}
 
 	public void goToWebsite(String url) {
+		logger.info("Loading the url "+url);
+
 		driver.get(url);
 	}
 
 	public void maximizeWindow() {
+		logger.info("Maximising the window");
+
 		driver.manage().window().maximize();
 	}
 
 	public void ClickOn(By Locator) {
 		WebElement element = driver.findElement(Locator);
+		logger.info("Clicking on element"+Locator);
 		element.click();
 	}
 

@@ -1,0 +1,813 @@
+2026-03-29 23:22:54 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-29 23:22:55 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-29 23:22:59 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-29 23:23:00 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-29 23:23:00 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-29 23:23:00 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-29 23:23:00 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-29 23:23:00 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-29 23:23:01 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-29 23:23:01 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-29 23:23:02 [main] INFO  com.ui.listeners.TestListener - loginJSONTest FAILED
+2026-03-29 23:23:02 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [13bc6b380a46e6035679c31f267bb04e, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51811}, goog:processID: 34956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51811/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 13bc6b380a46e6035679c31f267bb04e
+2026-03-29 23:23:02 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-29 23:23:04 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-29 23:23:04 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-29 23:23:04 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-29 23:23:04 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-29 23:23:04 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-29 23:23:05 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-29 23:23:06 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-29 23:23:06 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-29 23:23:07 [main] INFO  com.ui.listeners.TestListener - loginJSONTest PASSED
+2026-03-29 23:23:07 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 22:58:44 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 22:58:45 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 22:58:51 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 22:58:52 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 22:58:52 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 22:58:52 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 22:58:52 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 22:58:52 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 22:58:54 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 22:58:56 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 22:58:56 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 22:58:56 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 22:58:56 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 22:58:56 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 22:58:56 [main] ERROR com.ui.listeners.TestListener - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.utility.ExtentReporterUtility.getTest()" is null
+2026-03-30 22:58:56 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 22:59:43 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 22:59:44 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 22:59:46 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 22:59:47 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 22:59:47 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 22:59:47 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 22:59:47 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 22:59:47 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 22:59:49 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 22:59:50 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 22:59:50 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 22:59:50 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 22:59:50 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 22:59:50 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 22:59:50 [main] ERROR com.ui.listeners.TestListener - java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because the return value of "com.utility.ExtentReporterUtility.getTest()" is null
+2026-03-30 22:59:50 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 23:03:40 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:03:40 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:03:45 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:03:46 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:03:46 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:03:46 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:03:46 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:03:47 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:03:47 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:03:48 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:03:48 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:03:48 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:03:50 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:03:51 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:03:51 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:03:51 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:03:51 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:03:52 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:03:52 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:03:53 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:03:53 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:03:53 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:03:55 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:03:56 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:03:56 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:03:56 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:03:56 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:03:56 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:03:57 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:03:58 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:03:59 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:03:59 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:02 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:02 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:02 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:02 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:02 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:03 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:06 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:09 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:10 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:04:10 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed2818eb63ee102f0021d7338bc9366, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59512}, goog:processID: 26128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59512/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eed2818eb63ee102f0021d7338bc9366
+2026-03-30 23:04:10 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:12 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:14 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:14 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:14 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:14 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:14 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:16 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:17 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:18 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:04:18 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:21 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:23 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:23 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:23 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:23 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:23 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:24 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:25 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:26 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:04:26 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:29 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:30 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:30 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:30 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:30 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:31 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:32 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:33 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:33 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:04:33 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:36 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:37 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:37 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:37 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:37 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:37 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:38 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:40 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:40 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:04:40 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:48 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:49 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:49 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:49 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:49 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:49 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:50 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:04:50 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:04:51 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:04:51 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1dcf596fdc57755db8b629dc6147d181, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61286}, goog:processID: 28664, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61286/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dcf596fdc57755db8b629dc6147d181
+2026-03-30 23:04:51 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:04:54 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:04:57 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:04:57 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:04:57 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:04:57 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:04:57 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:04:59 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:05:00 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:05:00 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:05:01 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 23:09:49 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:09:50 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:09:53 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:09:54 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:09:54 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:09:54 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:09:54 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:09:54 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:09:54 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:09:55 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:09:55 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:09:55 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:09:57 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:09:57 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:09:57 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:09:57 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:09:57 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:09:58 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:09:58 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:09:59 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:09:59 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:09:59 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:01 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:01 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:01 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:01 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:01 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:01 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:02 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:03 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:03 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:10:03 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:05 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:06 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:06 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:06 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:06 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:06 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:07 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:08 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:08 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:10:08 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdb812790f845765204ffe1b978490df, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55723}, goog:processID: 32060, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55723/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cdb812790f845765204ffe1b978490df
+2026-03-30 23:10:08 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:10 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:10 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:10 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:10 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:10 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:11 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:12 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:13 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:14 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:10:14 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:15 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:17 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:17 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:17 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:17 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:17 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:18 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:19 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:20 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:10:20 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:22 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:24 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:24 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:24 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:24 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:24 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:24 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:25 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:26 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:10:26 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:28 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:29 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:29 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:29 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:29 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:29 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:29 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:30 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:31 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:10:31 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:33 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:35 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:35 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:35 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:35 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:35 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:35 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:36 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:37 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:10:37 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa1e7a75242ea0b8dc4226441202b8e6, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64665}, goog:processID: 28388, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64665/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa1e7a75242ea0b8dc4226441202b8e6
+2026-03-30 23:10:37 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:39 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:40 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:10:40 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:40 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:40 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:40 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:41 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:42 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:43 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:10:43 [main] WARN  org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:\Users\HP\eclipse-workspace\E-CommerceSite_Automation\testData\logindata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+2026-03-30 23:10:43 [main] INFO  com.ui.listeners.TestListener - loginExcelTest FAILED
+2026-03-30 23:10:43 [main] ERROR com.ui.listeners.TestListener - java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2026-03-30 23:10:43 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:45 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:46 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:10:46 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:46 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:46 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:46 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:47 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:48 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:49 [main] INFO  com.ui.listeners.TestListener - loginJSONTest FAILED
+2026-03-30 23:10:49 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3411ad97af12f2ed4e744b8ab2bb40c8, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51374}, goog:processID: 36964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51374/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3411ad97af12f2ed4e744b8ab2bb40c8
+2026-03-30 23:10:49 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:10:53 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:10:54 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:10:54 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:10:54 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:10:54 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:10:54 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:10:55 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:10:56 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:10:57 [main] INFO  com.ui.listeners.TestListener - loginJSONTest PASSED
+2026-03-30 23:10:58 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 23:41:51 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:41:52 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:41:58 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:00 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:00 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:00 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:00 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:00 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:01 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:01 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:02 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:02 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:03 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:04 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:04 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:04 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:04 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:04 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:05 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:05 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:06 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:06 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:08 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:09 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:09 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:09 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:09 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:09 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:10 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:11 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:11 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:11 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:15 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:16 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:16 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:16 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:16 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:16 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:17 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:18 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:19 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:42:19 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d936f8e91e8f24b6230b6bc8c979e4d5, findElement {value=//*[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56976}, goog:processID: 38072, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56976/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d936f8e91e8f24b6230b6bc8c979e4d5
+2026-03-30 23:42:19 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:22 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:23 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:23 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:23 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:23 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:24 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:26 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:28 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:28 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:42:28 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:31 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:32 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:32 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:32 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:32 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:33 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:37 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:38 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:38 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:39 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:42 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:43 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:43 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:43 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:43 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:43 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:43 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:44 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:44 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:44 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:46 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:46 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:46 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:46 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:46 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:47 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:47 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:48 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:48 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:42:48 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:50 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:42:52 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:42:52 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:42:52 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:42:52 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:42:52 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:42:54 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:42:55 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:42:56 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:42:56 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [122d2822686db1038141281ea30ac950, findElement {value=//*[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65409}, goog:processID: 27896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65409/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 122d2822686db1038141281ea30ac950
+2026-03-30 23:42:56 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:42:58 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:43:01 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:43:01 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:43:01 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:43:01 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:43:02 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:43:06 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:43:06 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:43:07 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:43:07 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:43:12 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:43:14 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:43:14 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:43:14 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:43:14 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:43:14 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:43:15 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:43:16 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:43:17 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:43:17 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 23:53:31 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:53:31 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:53:35 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:53:36 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:53:36 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:53:36 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:53:36 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:53:36 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:53:37 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:53:37 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:53:38 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:53:38 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:53:39 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:53:40 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:53:40 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:53:40 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:53:40 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:53:40 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:53:41 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:53:41 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:53:42 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:53:42 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:53:44 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:53:45 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:53:45 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:53:45 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:53:45 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:53:45 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:53:46 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:53:48 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:53:49 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:53:49 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:53:52 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:53:52 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:53:52 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:53:52 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:53:52 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:53:54 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:53:55 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:53:56 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:53:56 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:53:56 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fca207b31544424307b4b8e88cbc8e8, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53511}, goog:processID: 33128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53511/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fca207b31544424307b4b8e88cbc8e8
+2026-03-30 23:53:56 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:53:58 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:00 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:00 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:00 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:00 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:00 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:01 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:02 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:03 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:54:03 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:05 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:07 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:07 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:07 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:07 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:07 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:08 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:09 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:10 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:54:10 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:12 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:12 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:12 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:12 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:12 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:13 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:14 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:17 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:18 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:54:18 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:20 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:21 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:21 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:21 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:21 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:22 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:24 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:26 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:26 [main] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:54:26 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:29 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:29 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:29 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:29 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:29 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:30 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:30 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:31 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:31 [main] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:54:31 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99a2f9d8704c92c513e79535b2452d11, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63935}, goog:processID: 21792, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63935/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 99a2f9d8704c92c513e79535b2452d11
+2026-03-30 23:54:31 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:33 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:35 [main] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:54:35 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:35 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:35 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:35 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:36 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:37 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:38 [main] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:54:39 [main] WARN  org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:\Users\HP\eclipse-workspace\E-CommerceSite_Automation\testData\logindata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+2026-03-30 23:54:39 [main] INFO  com.ui.listeners.TestListener - loginExcelTest FAILED
+2026-03-30 23:54:39 [main] ERROR com.ui.listeners.TestListener - java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2026-03-30 23:54:39 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:44 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:44 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:54:44 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:44 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:45 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:46 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:47 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:54:48 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:54:49 [main] INFO  com.ui.listeners.TestListener - loginJSONTest FAILED
+2026-03-30 23:54:49 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c1e1b0497e2391ee8a3efce72f2adeff, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54055}, goog:processID: 12844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54055/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c1e1b0497e2391ee8a3efce72f2adeff
+2026-03-30 23:54:49 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:54:57 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:54:58 [main] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:54:58 [main] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:54:58 [main] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:54:58 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:54:59 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:54:59 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:55:00 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:55:01 [main] INFO  com.ui.listeners.TestListener - loginJSONTest PASSED
+2026-03-30 23:55:02 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
+2026-03-30 23:56:13 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:56:14 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:14 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:14 [TestNG-test-UI Automation Test-2] WARN  org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:\Users\HP\eclipse-workspace\E-CommerceSite_Automation\testData\logindata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+2026-03-30 23:56:14 [TestNG-test-UI Automation Test-2] INFO  com.ui.listeners.TestListener - loginExcelTest FAILED
+2026-03-30 23:56:14 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener - java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2026-03-30 23:56:18 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:18 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:20 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:56:20 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:56:20 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:20 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:56:21 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest FAILED
+2026-03-30 23:56:21 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f164d9637ba0a68b3bf1e831cb1cfbc, findElement {value=//*[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52260}, goog:processID: 30820, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52260/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f164d9637ba0a68b3bf1e831cb1cfbc
+2026-03-30 23:56:21 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:22 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:23 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:24 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:25 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:56:26 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:56:26 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:26 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:56:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:56:28 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:28 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest PASSED
+2026-03-30 23:56:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:56:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:30 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:56:31 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:56:31 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:56:31 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:33 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:56:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:56:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:56:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:56:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:56:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:56:37 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:56:39 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:56:41 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:56:41 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2de5acf663b92c4f38f84f05a8ec3a6e, findElement {value=//*[@title="View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60668}, goog:processID: 22964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60668/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2de5acf663b92c4f38f84f05a8ec3a6e
+2026-03-30 23:56:41 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:56:44 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:21 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-03-30 23:57:22 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:22 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:22 [TestNG-test-UI Automation Test-2] WARN  org.apache.poi.openxml4j.opc.ZipPackage - Error in zip file C:\Users\HP\eclipse-workspace\E-CommerceSite_Automation\testData\logindata.xlsx - falling back to stream processing (i.e. ignoring zip central directory)
+2026-03-30 23:57:22 [TestNG-test-UI Automation Test-2] INFO  com.ui.listeners.TestListener - loginExcelTest FAILED
+2026-03-30 23:57:22 [TestNG-test-UI Automation Test-2] ERROR com.ui.listeners.TestListener - java.lang.RuntimeException: org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+2026-03-30 23:57:26 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:26 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:27 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:28 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:28 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest FAILED
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-3] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [df6e63888ef785649b797c562e379df0, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61921}, goog:processID: 27488, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61921/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df6e63888ef785649b797c562e379df0
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:57:29 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:31 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:32 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:32 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:57:32 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:32 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:32 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:33 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest
+2026-03-30 23:57:33 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:33 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:33 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:33 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:34 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:34 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:35 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:35 [TestNG-test-UI Automation Test-3] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:36 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:36 [TestNG-test-UI Automation Test-3] INFO  com.ui.listeners.TestListener - loginJSONTest PASSED
+2026-03-30 23:57:36 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:57:36 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:38 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:40 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:57:40 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:40 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:40 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:40 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:41 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:42 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:43 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:57:43 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:45 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:57:46 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:57:46 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:57:46 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:57:46 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:57:47 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:57:47 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:57:49 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:57:51 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest FAILED
+2026-03-30 23:57:51 [TestNG-test-UI Automation Test-1] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
+  (Session info: chrome=146.0.7680.165)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6991eadc2d871fc5bccc9ff50e741b91, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64464}, goog:processID: 38880, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64464/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6991eadc2d871fc5bccc9ff50e741b91
+2026-03-30 23:57:51 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:57:59 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:58:01 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:58:01 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:58:01 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:58:01 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:58:01 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:58:02 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:58:03 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:58:04 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest PASSED
+2026-03-30 23:58:04 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:58:08 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:58:08 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:58:08 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:58:08 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:58:08 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:58:09 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:58:10 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:58:11 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:58:12 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:58:12 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:58:14 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-03-30 23:58:16 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - loginCSVTest
+2026-03-30 23:58:16 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - Verify login for valid user
+2026-03-30 23:58:16 [TestNG-test-UI Automation Test-1] INFO  com.ui.listeners.TestListener - [Sanity, e2e]
+2026-03-30 23:58:16 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-03-30 23:58:17 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-03-30 23:58:18 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Maximising the window
+2026-03-30 23:58:19 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitLogin
+2026-03-30 23:58:20 [TestNG-test-UI Automation Test-1] WARN  com.ui.listeners.TestListener - loginCSVTest SKIPPED
+2026-03-30 23:58:20 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-03-30 23:58:23 [TestNG-test-UI Automation Test-1] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
