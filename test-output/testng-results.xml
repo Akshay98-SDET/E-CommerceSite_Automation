@@ -2,26 +2,26 @@
 <testng-results retried="6" ignored="0" total="13" passed="3" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-30T23:53:31 IST" name="Automation Test Suite" finished-at="2026-03-30T23:55:01 IST" duration-ms="90069">
+  <suite started-at="2026-03-31T23:53:45 IST" name="Default suite" finished-at="2026-03-31T23:54:54 IST" duration-ms="69016">
     <groups>
       <group name="Sanity">
-        <method signature="LoginTest.loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginCSVTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginJSONTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginCSVTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginJSONTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- Sanity -->
       <group name="e2e">
-        <method signature="LoginTest.loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginCSVTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
-        <method signature="LoginTest.loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" name="loginJSONTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginCSVTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginExcelTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" name="loginJSONTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2026-03-30T23:53:31 IST" name="UI Automation Test" finished-at="2026-03-30T23:55:01 IST" duration-ms="90069">
+    <test started-at="2026-03-31T23:53:45 IST" name="Default test" finished-at="2026-03-31T23:54:54 IST" duration-ms="69016">
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:31 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:53:36 IST" duration-ms="4687" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:46 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:53:52 IST" duration-ms="6007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:36 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:53:38 IST" duration-ms="1727" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:52 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:53:53 IST" duration-ms="1384" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -37,9 +37,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fb6935f6b96cbd0f4dcb14aa3621cc6e, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65025}, goog:processID: 28096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65025/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fb6935f6b96cbd0f4dcb14aa3621cc6e]]>
+Command: [2b6432d789e48c906d22a2e9d5e9907f, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63495}, goog:processID: 15616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63495/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b6432d789e48c906d22a2e9d5e9907f]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -48,9 +48,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [fb6935f6b96cbd0f4dcb14aa3621cc6e, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65025}, goog:processID: 28096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65025/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fb6935f6b96cbd0f4dcb14aa3621cc6e
+Command: [2b6432d789e48c906d22a2e9d5e9907f, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63495}, goog:processID: 15616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63495/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2b6432d789e48c906d22a2e9d5e9907f
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -97,11 +97,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:38 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:53:40 IST" duration-ms="2519" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:53 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:53:55 IST" duration-ms="1588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:40 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:53:42 IST" duration-ms="1653" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:55 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:53:56 IST" duration-ms="990" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -117,9 +117,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9622eebb2b62a960e1e0658511a052b, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64282}, goog:processID: 30804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64282/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9622eebb2b62a960e1e0658511a052b]]>
+Command: [c37d37c42400b501a2c965a7097dc47a, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52577}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52577/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c37d37c42400b501a2c965a7097dc47a]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -128,9 +128,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [a9622eebb2b62a960e1e0658511a052b, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64282}, goog:processID: 30804, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64282/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: a9622eebb2b62a960e1e0658511a052b
+Command: [c37d37c42400b501a2c965a7097dc47a, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52577}, goog:processID: 24440, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52577/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c37d37c42400b501a2c965a7097dc47a
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -177,11 +177,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:42 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:53:45 IST" duration-ms="3041" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:56 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:53:57 IST" duration-ms="1146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:45 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:53:49 IST" duration-ms="3717" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:57 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:53:58 IST" duration-ms="1727" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -197,9 +197,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c622f1fa0db00671ec945b33272f6507, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60124}, goog:processID: 17580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60124/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c622f1fa0db00671ec945b33272f6507]]>
+Command: [dd9403819f583785e811ee006ca5a5f1, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52031}, goog:processID: 12240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52031/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd9403819f583785e811ee006ca5a5f1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -208,9 +208,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c622f1fa0db00671ec945b33272f6507, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60124}, goog:processID: 17580, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60124/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c622f1fa0db00671ec945b33272f6507
+Command: [dd9403819f583785e811ee006ca5a5f1, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52031}, goog:processID: 12240, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52031/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dd9403819f583785e811ee006ca5a5f1
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -257,11 +257,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:49 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:53:52 IST" duration-ms="3186" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:53:58 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:01 IST" duration-ms="2414" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:52 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:53:56 IST" duration-ms="4578" status="FAIL">
+        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:01 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:02 IST" duration-ms="1131" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -277,9 +277,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fca207b31544424307b4b8e88cbc8e8, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53511}, goog:processID: 33128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53511/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fca207b31544424307b4b8e88cbc8e8]]>
+Command: [f4493f416ebb9055c4a517318d993c0c, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63785}, goog:processID: 19592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63785/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4493f416ebb9055c4a517318d993c0c]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -288,9 +288,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1fca207b31544424307b4b8e88cbc8e8, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53511}, goog:processID: 33128, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53511/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1fca207b31544424307b4b8e88cbc8e8
+Command: [f4493f416ebb9055c4a517318d993c0c, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63785}, goog:processID: 19592, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63785/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f4493f416ebb9055c4a517318d993c0c
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -337,11 +337,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:53:56 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:00 IST" duration-ms="3244" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:02 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:04 IST" duration-ms="2175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:00 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:03 IST" duration-ms="2956" status="PASS">
+        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:04 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:07 IST" duration-ms="2622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -352,11 +352,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:03 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:07 IST" duration-ms="3987" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:07 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:10 IST" duration-ms="3201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:07 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:10 IST" duration-ms="3198" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:10 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:14 IST" duration-ms="4118" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -372,9 +372,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3ae27083c0528434791a93e81f1b9f50, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52370}, goog:processID: 37784, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52370/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ae27083c0528434791a93e81f1b9f50]]>
+Command: [45ed36a7f3025b945b0971ea0b713743, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61140}, goog:processID: 27816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61140/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ed36a7f3025b945b0971ea0b713743]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -383,9 +383,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3ae27083c0528434791a93e81f1b9f50, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52370}, goog:processID: 37784, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52370/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3ae27083c0528434791a93e81f1b9f50
+Command: [45ed36a7f3025b945b0971ea0b713743, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61140}, goog:processID: 27816, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61140/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 45ed36a7f3025b945b0971ea0b713743
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -432,11 +432,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:10 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:12 IST" duration-ms="2203" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:14 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:17 IST" duration-ms="2719" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:12 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:18 IST" duration-ms="5621" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:17 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:20 IST" duration-ms="2804" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -452,9 +452,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [819e70d3596a42fcf94519023aa45355, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58289}, goog:processID: 31896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58289/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 819e70d3596a42fcf94519023aa45355]]>
+Command: [0ac1e980b869eeb3e6af01079dfac178, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63427}, goog:processID: 3864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63427/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac1e980b869eeb3e6af01079dfac178]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -463,9 +463,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [819e70d3596a42fcf94519023aa45355, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58289}, goog:processID: 31896, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58289/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 819e70d3596a42fcf94519023aa45355
+Command: [0ac1e980b869eeb3e6af01079dfac178, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63427}, goog:processID: 3864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63427/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0ac1e980b869eeb3e6af01079dfac178
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -512,11 +512,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:18 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:21 IST" duration-ms="2989" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:20 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:24 IST" duration-ms="4725" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:21 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:26 IST" duration-ms="5261" status="SKIP">
+        <test-method retried="true" signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:24 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:26 IST" duration-ms="1767" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -532,9 +532,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c036c738a5c0ef8f0ae988013ba5994, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58925}, goog:processID: 27436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c036c738a5c0ef8f0ae988013ba5994]]>
+Command: [ce39b3ce7a531f7e7dcab4be7ca609a9, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60793}, goog:processID: 20096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60793/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce39b3ce7a531f7e7dcab4be7ca609a9]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -543,9 +543,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [3c036c738a5c0ef8f0ae988013ba5994, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58925}, goog:processID: 27436, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58925/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3c036c738a5c0ef8f0ae988013ba5994
+Command: [ce39b3ce7a531f7e7dcab4be7ca609a9, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60793}, goog:processID: 20096, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60793/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce39b3ce7a531f7e7dcab4be7ca609a9
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -592,11 +592,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:26 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:29 IST" duration-ms="3178" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:26 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:30 IST" duration-ms="3634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:29 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:31 IST" duration-ms="2325" status="FAIL">
+        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:30 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:32 IST" duration-ms="2426" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -612,9 +612,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99a2f9d8704c92c513e79535b2452d11, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63935}, goog:processID: 21792, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63935/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99a2f9d8704c92c513e79535b2452d11]]>
+Command: [351dba9b01d1891a6e283a2a72e95e66, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62591}, goog:processID: 25700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62591/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 351dba9b01d1891a6e283a2a72e95e66]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -623,9 +623,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [99a2f9d8704c92c513e79535b2452d11, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63935}, goog:processID: 21792, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63935/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 99a2f9d8704c92c513e79535b2452d11
+Command: [351dba9b01d1891a6e283a2a72e95e66, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62591}, goog:processID: 25700, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62591/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 351dba9b01d1891a6e283a2a72e95e66
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -672,11 +672,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:31 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:35 IST" duration-ms="3214" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:32 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:34 IST" duration-ms="1965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:35 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-30T23:54:38 IST" duration-ms="3472" status="PASS">
+        <test-method signature="loginCSVTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:34 IST" name="loginCSVTest" description="Verify login for valid user" data-provider="LoginCSVDataProvider" finished-at="2026-03-31T23:54:39 IST" duration-ms="4618" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -687,7 +687,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCSVTest -->
-        <test-method signature="loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:39 IST" name="loginExcelTest" description="Verify login for valid user" data-provider="LoginExcelDataProvider" finished-at="2026-03-30T23:54:39 IST" duration-ms="0" status="FAIL">
+        <test-method signature="loginExcelTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:39 IST" name="loginExcelTest" description="Verify login for valid user" data-provider="LoginExcelDataProvider" finished-at="2026-03-31T23:54:39 IST" duration-ms="0" status="FAIL">
           <exception class="java.lang.RuntimeException">
             <message>
               <![CDATA[org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file]]>
@@ -749,11 +749,11 @@ at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(Zip
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginExcelTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:39 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:44 IST" duration-ms="5233" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:39 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:43 IST" duration-ms="3393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:44 IST" name="loginJSONTest" description="Verify login for valid user" data-provider="LoginDataProvider" finished-at="2026-03-30T23:54:49 IST" duration-ms="4411" status="FAIL">
+        <test-method signature="loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:43 IST" name="loginJSONTest" description="Verify login for valid user" data-provider="LoginDataProvider" finished-at="2026-03-31T23:54:45 IST" duration-ms="2263" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -769,9 +769,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c1e1b0497e2391ee8a3efce72f2adeff, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54055}, goog:processID: 12844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54055/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c1e1b0497e2391ee8a3efce72f2adeff]]>
+Command: [021f1a3f2ec7f46897fea1ca3fb6b5b6, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58928}, goog:processID: 42868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58928/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 021f1a3f2ec7f46897fea1ca3fb6b5b6]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@title="View my customer account"]/span"}
@@ -780,9 +780,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.41.0', revision: '9fc754f'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c1e1b0497e2391ee8a3efce72f2adeff, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54055}, goog:processID: 12844, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54055/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c1e1b0497e2391ee8a3efce72f2adeff
+Command: [021f1a3f2ec7f46897fea1ca3fb6b5b6, findElement {using=xpath, value=//*[@title="View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.165, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58928}, goog:processID: 42868, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58928/devtoo..., se:cdpVersion: 146.0.7680.165, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 021f1a3f2ec7f46897fea1ca3fb6b5b6
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -829,11 +829,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginJSONTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:49 IST" name="setup" description="Load Home Page" finished-at="2026-03-30T23:54:58 IST" duration-ms="8767" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:45 IST" name="setup" description="Load Home Page" finished-at="2026-03-31T23:54:53 IST" duration-ms="7833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@d35dea7]" started-at="2026-03-30T23:54:58 IST" name="loginJSONTest" description="Verify login for valid user" data-provider="LoginDataProvider" finished-at="2026-03-30T23:55:01 IST" duration-ms="3035" status="PASS">
+        <test-method signature="loginJSONTest(com.ui.pojos.User)[pri:1, instance:com.ui.tests.LoginTest@131ef10]" started-at="2026-03-31T23:54:53 IST" name="loginJSONTest" description="Verify login for valid user" data-provider="LoginDataProvider" finished-at="2026-03-31T23:54:54 IST" duration-ms="1135" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -845,6 +845,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- loginJSONTest -->
       </class> <!-- com.ui.tests.LoginTest -->
-    </test> <!-- UI Automation Test -->
-  </suite> <!-- Automation Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
