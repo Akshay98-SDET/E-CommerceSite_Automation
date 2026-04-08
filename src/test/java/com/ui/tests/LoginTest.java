@@ -32,7 +32,6 @@ public class LoginTest {
 
 		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
 				"Akshay J");
-
 	}
 
 	@Test(description = "Verify login for valid user", priority = 1, groups = { "e2e",
@@ -40,6 +39,11 @@ public class LoginTest {
 	public void loginExcelTest(User user) {
 		assertEquals(homepage.goToLoginPage().doLoginWith(user.getEmailAdrress(), user.getPassword()).getUserName(),
 				"Akshay J");
+	}
+	
+	@Test (description="Register with email")
+	public void createAccount() {
+		homepage.goToLoginPage().RegisterWithEmail();
 	}
 
 }

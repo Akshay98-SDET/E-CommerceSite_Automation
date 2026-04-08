@@ -12,12 +12,15 @@ import com.utility.LoggerUtility;
 
 public final class HomePage extends BrowserUtility {
 	private static final By SIGN_IN_LOCATOR = By.xpath("//*[@class=\"login\"]");
+
+	
 	Logger logger = LoggerUtility.getLogger(this.getClass());
 	
 
 	public HomePage(Browser browserName) {
 		super(browserName);
 		goToWebsite(JSONUtility.readJSON(QA));
+		
 		// goToWebsite(PropertiesUtil.getProperty(Env.DEV, "URL"));
 	}
 
@@ -28,5 +31,6 @@ public final class HomePage extends BrowserUtility {
 		LoginPage loginpage = new LoginPage(getDriver());
 		return loginpage;
 	}
+	
 
 }
