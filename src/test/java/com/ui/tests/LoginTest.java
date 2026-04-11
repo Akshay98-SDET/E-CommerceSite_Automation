@@ -11,7 +11,7 @@ import com.ui.pages.HomePage;
 import com.ui.pojos.User;
 
 @Listeners(com.ui.listeners.TestListener.class)
-public class LoginTest {
+public class LoginTest extends BaseTest {
 	HomePage homepage;
 
 	@BeforeMethod(description = "Load Home Page")
