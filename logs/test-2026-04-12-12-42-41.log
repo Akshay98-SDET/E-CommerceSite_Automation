@@ -1,0 +1,21 @@
+2026-04-12 12:42:40 [main] INFO  com.ui.listeners.TestListener - Test Suite Started
+2026-04-12 12:42:41 [main] INFO  com.ui.pages.HomePage - Launching browserCHROME
+2026-04-12 12:42:44 [main] INFO  com.ui.pages.HomePage - Loading the url https://automationpractice.techwithjatin.com/
+2026-04-12 12:42:45 [main] INFO  com.ui.listeners.TestListener - createAccount
+2026-04-12 12:42:45 [main] INFO  com.ui.listeners.TestListener - Register with email
+2026-04-12 12:42:45 [main] INFO  com.ui.listeners.TestListener - []
+2026-04-12 12:42:45 [main] INFO  com.ui.pages.HomePage - Going to sign up page
+2026-04-12 12:42:45 [main] INFO  com.ui.pages.HomePage - Clicking on elementBy.xpath: //*[@class="login"]
+2026-04-12 12:42:46 [main] INFO  com.ui.pages.HomePage - Maximising the window
+2026-04-12 12:42:46 [main] INFO  com.ui.pages.LoginPage - Clicking on elementBy.id: SubmitCreate
+2026-04-12 12:42:46 [main] INFO  com.ui.listeners.TestListener - createAccount FAILED
+2026-04-12 12:42:46 [main] ERROR com.ui.listeners.TestListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf2152b0081f546aafb43a27db37c36, findElement {using=id, value=id_gender1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55979}, goog:processID: 6524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf2152b0081f546aafb43a27db37c36
+2026-04-12 12:42:46 [main] INFO  com.ui.listeners.TestListener - Test Suite Completed
