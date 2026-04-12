@@ -1,23 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN">
 
-    <Appenders>
-        <!-- Console -->
-        <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n"/>
-        </Console>
+	<Appenders>
+		<!-- Console -->
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n" />
+		</Console>
 
-        <!-- File -->
-        <File name="FileLogger" fileName="logs/test.log" append="true">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n"/>
-        </File>
-    </Appenders>
+		<!-- File -->
+		<RollingFile name="FileLogger" fileName="logs/test.log"
+			filePattern="logs/test-%d{yyyy-MM-dd-HH-mm-ss}.log">
 
-    <Loggers>
-        <Root level="info">
-            <AppenderRef ref="Console"/>
-            <AppenderRef ref="FileLogger"/>
-        </Root>
-    </Loggers>
+			<PatternLayout
+				pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %c - %msg%n" />
+
+			<Policies>
+				<OnStartupTriggeringPolicy />
+			</Policies>
+
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLogger" />
+		</Root>
+	</Loggers>
 
 </Configuration>

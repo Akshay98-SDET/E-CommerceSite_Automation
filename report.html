@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Apr 10, 2026 04:16:51 pm</span></a>
+<a href="#"><span class="badge badge-primary">Apr 12, 2026 12:42:40 pm</span></a>
 </li>
 </ul>
 </div>
@@ -81,7 +81,7 @@
           <div class="test-detail">
             <p class="name">createAccount</p>
             <p class="text-sm">
-              <span>4:16:58 pm</span> / <span>00:00:01:154</span>
+              <span>12:42:45 pm</span> / <span>00:00:00:726</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -90,9 +90,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">createAccount</h5>
-<span class='badge badge-success'>04.10.2026 4:16:58 pm</span>
-<span class='badge badge-danger'>04.10.2026 4:16:59 pm</span>
-<span class='badge badge-default'>00:00:01:154</span>
+<span class='badge badge-success'>04.12.2026 12:42:45 pm</span>
+<span class='badge badge-danger'>04.12.2026 12:42:46 pm</span>
+<span class='badge badge-default'>00:00:00:726</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
 <span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
@@ -105,9 +105,24 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:16:59 pm</td>
+        <td>12:42:46 pm</td>
         <td>
           createAccount FAILED
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>12:42:46 pm</td>
+        <td>
+          org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#id_gender1"}
+  (Session info: chrome=146.0.7680.178)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.41.0', revision: '9fc754f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcf2152b0081f546aafb43a27db37c36, findElement {using=id, value=id_gender1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55979}, goog:processID: 6524, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55979/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fcf2152b0081f546aafb43a27db37c36
         </td>
       </tr>
   </tbody>
@@ -129,13 +144,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Apr 10, 2026 04:16:51 pm</h3>
+<h3>Apr 12, 2026 12:42:40 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Apr 10, 2026 04:16:59 pm</h3>
+<h3>Apr 12, 2026 12:42:46 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -188,7 +203,7 @@
 <div class="card-footer">
 <div><small data-tooltip='0%'><b>0</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>1</b> events failed,
+<small data-tooltip='100%'><b>2</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -205,7 +220,7 @@
 </div></div>
 <script>
 var timeline = {
-"createAccount":1.154
+"createAccount":0.726
 };
 </script>
 <div class="row">
@@ -232,7 +247,7 @@ skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
 passEvents: 0,
-failEvents: 1,
+failEvents: 2,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
