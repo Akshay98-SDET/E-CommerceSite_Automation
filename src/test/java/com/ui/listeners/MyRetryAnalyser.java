@@ -16,5 +16,4 @@ public class MyRetryAnalyser implements IRetryAnalyzer {
 		}
 		return false;
 	}
-
 }

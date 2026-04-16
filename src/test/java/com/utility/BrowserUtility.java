@@ -11,8 +11,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 import com.constants.Browser;
 
@@ -26,14 +29,41 @@ public abstract class BrowserUtility {
 		this.driver.set(driver);
 	}
 
-	public BrowserUtility(Browser BrowserName) {
+	public BrowserUtility(Browser BrowserName, boolean isHeadless) {
 		logger.info("Launching browser" + BrowserName);
+
 		if (BrowserName == Browser.CHROME) {
-			driver.set(new ChromeDriver());
-		} else if (BrowserName == Browser.EDGE) {
-			driver.set(new EdgeDriver());
-		} else if (BrowserName == Browser.FIREFOX) {
-			driver.set(new FirefoxDriver());
+			if (isHeadless) {
+
+				ChromeOptions options = new ChromeOptions();
+				options.addArguments("--headless=old");
+				options.addArguments("--window-size=1920,1080");
+				driver.set(new ChromeDriver(options));
+			} else {
+				driver.set(new ChromeDriver());
+			}
+		}
+
+		else if (BrowserName == Browser.EDGE) {
+			if (isHeadless) {
+				EdgeOptions options = new EdgeOptions();
+				options.addArguments("--headless=old");
+				options.addArguments("--window-size=1920,1080");
+				driver.set(new EdgeDriver(options));
+			} else {
+				driver.set(new EdgeDriver());
+			}
+		}
+
+		else if (BrowserName == Browser.FIREFOX) {
+			if (isHeadless) {
+				FirefoxOptions options = new FirefoxOptions();
+				options.addArguments("--headless=old");
+				options.addArguments("--window-size=1920,1080");
+				driver.set(new FirefoxDriver(options));
+			} else {
+				driver.set(new FirefoxDriver());
+			}
 		}
 	}
 
@@ -72,8 +102,7 @@ public abstract class BrowserUtility {
 		TakesScreenshot screenshotdata = (TakesScreenshot) driver.get();
 		File src = screenshotdata.getScreenshotAs(OutputType.FILE);
 
-		String path = System.getProperty("user.dir") + "//Screenshot//" + name+".png";
-
+		String path = System.getProperty("user.dir") + "//Screenshot//" + name + ".png";
 		File dest = new File(path);
 
 		try {
