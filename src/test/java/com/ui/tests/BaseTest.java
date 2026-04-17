@@ -13,7 +13,7 @@ import com.utility.LambdaTestUtility;
 public class BaseTest {
 
 	protected HomePage homepage;
-	private boolean isHeadless = false;
+	private boolean isHeadless = true;
 	private boolean islambdaTest = false;
 	ITestResult result;
 
