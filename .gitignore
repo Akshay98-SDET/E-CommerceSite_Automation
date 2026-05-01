@@ -1,4 +1,7 @@
-/target/
-/Screenshot/
-/report.html
-/logs/
+target/
+test-output/
+surefire-reports/
+reports/
+*.html
+logs/
+*.log
