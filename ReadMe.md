@@ -1,10 +1,24 @@
-# 🛒 E-Commerce Automation Framework
+# 🚀 End-to-End UI Automation Framework
 
-## 🚀 Project Overview
+## 📖 Overview
+This project is a **scalable and maintainable UI automation framework** designed using **Java, Selenium WebDriver, TestNG, and Page Object Model (POM)**.
 
-This project is a **test automation framework** built to validate end-to-end workflows of an e-commerce application. It simulates real user behavior such as login, product search, cart operations, and checkout flows.
+The framework is built with a focus on **reusability, modularity, and CI/CD integration**, enabling efficient automation of end-to-end user workflows in web applications.
 
-The framework is designed using industry best practices like **Page Object Model (POM)** and supports scalable, maintainable automation for UI and functional testing.
+---
+
+## 🎯 Key Features
+
+- ✅ Page Object Model (POM) design pattern
+- ✅ Data-driven testing using JSON / CSV
+- ✅ Reusable utilities (Browser, Wait, Logger, Screenshot)
+- ✅ Cross-browser support
+- ✅ Parallel execution using TestNG
+- ✅ Retry mechanism for flaky tests
+- ✅ Screenshot capture on failure
+- ✅ Logging using Log4j
+- ✅ CI/CD integration using GitHub Actions
+- ✅ Clean and modular framework structure
 
 ---
 
